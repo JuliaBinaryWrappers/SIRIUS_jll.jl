@@ -1,0 +1,116 @@
+[[SIRIUS]]
+arch = "aarch64"
+git-tree-sha1 = "58d3ebe1fa7b703bbd248622ebce8ed6737eee96"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[SIRIUS.download]]
+    sha256 = "bcce9268281614b1d6ab988b41e3e974c331d69f6846cce0de0b89aa82672d0e"
+    url = "https://github.com/JuliaBinaryWrappers/SIRIUS_jll.jl/releases/download/SIRIUS-v7.6.1+0/SIRIUS.v7.6.1.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+[[SIRIUS]]
+arch = "aarch64"
+git-tree-sha1 = "c558123c5f23d8eec6ff5813f9e1b23355e111c7"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "macos"
+
+    [[SIRIUS.download]]
+    sha256 = "238fc3206c9faaebd4a65ebad409edfdef08eac19e2c5deb028b917313c8f5b0"
+    url = "https://github.com/JuliaBinaryWrappers/SIRIUS_jll.jl/releases/download/SIRIUS-v7.6.1+0/SIRIUS.v7.6.1.aarch64-apple-darwin-libgfortran5-mpi+openmpi.tar.gz"
+[[SIRIUS]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c9b0eaede2f6e088c6c28fcb68095fb3b2d9783b"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[SIRIUS.download]]
+    sha256 = "b2c26d0d929dc1306e31fbf382bd3c15a4bcd6ff7efb1b268f6e67e1d652a1cf"
+    url = "https://github.com/JuliaBinaryWrappers/SIRIUS_jll.jl/releases/download/SIRIUS-v7.6.1+0/SIRIUS.v7.6.1.aarch64-linux-gnu-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[SIRIUS]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9c0f7f7bfeccf7f61377e6034b615bd9712b3c59"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[SIRIUS.download]]
+    sha256 = "cce9d23affafb5ff12161c8caa629d0b378606e5223f3056655f59c7027e35a3"
+    url = "https://github.com/JuliaBinaryWrappers/SIRIUS_jll.jl/releases/download/SIRIUS-v7.6.1+0/SIRIUS.v7.6.1.aarch64-linux-gnu-libgfortran5-cxx03-mpi+openmpi.tar.gz"
+[[SIRIUS]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2ac569977f4030d1310ecc9eed48c655da3d3e46"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[SIRIUS.download]]
+    sha256 = "10d5b9a0946378cfabf1ccbee10a9e3c229edaf2b30c0a5252bc86f122ee2eaf"
+    url = "https://github.com/JuliaBinaryWrappers/SIRIUS_jll.jl/releases/download/SIRIUS-v7.6.1+0/SIRIUS.v7.6.1.aarch64-linux-gnu-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[SIRIUS]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e4dfc890d57adae7ae268dd3d859f3d4fe6d3696"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[SIRIUS.download]]
+    sha256 = "8a800bde0ffaed9a81fcd735f64871bca6f2c9db790b14a5a0a0282d0400dcb8"
+    url = "https://github.com/JuliaBinaryWrappers/SIRIUS_jll.jl/releases/download/SIRIUS-v7.6.1+0/SIRIUS.v7.6.1.aarch64-linux-gnu-libgfortran5-cxx11-mpi+openmpi.tar.gz"
+[[SIRIUS]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2b9773bef3374ca6af30ae06df71d36ac9ec63c1"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[SIRIUS.download]]
+    sha256 = "55b6ed5c80888ee0370226f77b23176bece06a57e48de439789e88641a3c3542"
+    url = "https://github.com/JuliaBinaryWrappers/SIRIUS_jll.jl/releases/download/SIRIUS-v7.6.1+0/SIRIUS.v7.6.1.x86_64-linux-gnu-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[SIRIUS]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "73bbb37f0f3701047c9691297fabad6a64d0cb9a"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[SIRIUS.download]]
+    sha256 = "7d88bb48c6aa3422131b4131a256efa024c18ede679ebecd64725f7dee872104"
+    url = "https://github.com/JuliaBinaryWrappers/SIRIUS_jll.jl/releases/download/SIRIUS-v7.6.1+0/SIRIUS.v7.6.1.x86_64-linux-gnu-libgfortran5-cxx03-mpi+openmpi.tar.gz"
+[[SIRIUS]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a8272b4931ee4a7857ac2e4d53ee5152370930a8"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[SIRIUS.download]]
+    sha256 = "29987f25e847ec8c5f1bb196481a689238fee56d488b09e1063acc4ac8ed38e9"
+    url = "https://github.com/JuliaBinaryWrappers/SIRIUS_jll.jl/releases/download/SIRIUS-v7.6.1+0/SIRIUS.v7.6.1.x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[SIRIUS]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "fdbc722f2972e0f58522991f92a4800c85b656f8"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[SIRIUS.download]]
+    sha256 = "dfc8c1b9d73a93372c63200ae40ae2387413eafc0beecb447889ca4e57986857"
+    url = "https://github.com/JuliaBinaryWrappers/SIRIUS_jll.jl/releases/download/SIRIUS-v7.6.1+0/SIRIUS.v7.6.1.x86_64-linux-gnu-libgfortran5-cxx11-mpi+openmpi.tar.gz"
