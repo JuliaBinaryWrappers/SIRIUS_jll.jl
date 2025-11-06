@@ -10,12 +10,13 @@ using spglib_jll
 using spla_jll
 using SpFFT_jll
 using COSTA_jll
+using Fmt_jll
 using CompilerSupportLibraries_jll
 using MPICH_jll
 JLLWrappers.@generate_wrapper_header("SIRIUS")
 JLLWrappers.@declare_library_product(libsirius, "libsirius.so")
 function __init__()
-    JLLWrappers.@generate_init_header(GSL_jll, pugixml_jll, libblastrampoline_jll, Libxc_jll, HDF5_jll, spglib_jll, spla_jll, SpFFT_jll, COSTA_jll, CompilerSupportLibraries_jll, MPICH_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(GSL_jll, pugixml_jll, libblastrampoline_jll, Libxc_jll, HDF5_jll, spglib_jll, spla_jll, SpFFT_jll, COSTA_jll, Fmt_jll, CompilerSupportLibraries_jll, MPICH_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libsirius,
         "lib/libsirius.so",
